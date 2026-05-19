@@ -1,0 +1,308 @@
+    1  exit
+    2  ls
+    3  pwd
+    4  cd /mnt/c
+    5  ls
+    6  cd /
+    7  /bin
+    8  cd /bin
+    9  ls
+   10  cd ..
+   11  pwd
+   12  cd
+   13  pwd
+   14  cd /bin
+   15  ~
+   16  cd
+   17  ls -a
+   18  ls -a -l
+   19  ls -al
+   20  cd --help
+   21  pwd --help
+   22  ls --help
+   23  echo $SHELL
+   24  cd /mnt/c
+   25  cd
+   26  find / -name '*-xlxs'
+   27  find /mnt/c/users/rintjo -name '*-xlxs'
+   28  find /mnt/c/users/Leroy -name '*-xlxs'
+   29  find --help
+   30  man find
+   31  history
+   32  history >mijn-getikte-commandos.txt
+   33  cat mijn-getikte-commandos
+   34  cat mijn-getikte-commandos.txt
+   35  tree
+   36  cd /mnt/c
+   37  cd
+   38  cd tempDW1/
+   39  cd tempDW1
+   40  cd
+   41  cd /tmpDW1
+   42  cd ../tmpDW1
+   43  cd ~/tmpDW1
+   44  rm -rf testje/
+   45  ls -l
+   46  chmod +x script.sh
+   47  ./script.sh
+   48  /bin
+   49  cd /bin
+   50  ls
+   51  ls -1
+   52  wc
+   53  wc wc
+   54  cd ~
+   55  pwd
+   56  ls
+   57  cd /tmpDW1
+   58  cd ./tmpDW1
+   59  mkdir map1 map2
+   60  ls -al
+   61  cd ~
+   62  find --help
+   63  man find
+   64  ./tmpDW1
+   65  cd ./tmpDW1
+   66  ls -al
+   67  echo ls -al > overz.txt
+   68  ls -al
+   69  cat overz.txt
+   70  ls -al > overz.txt
+   71  cqt overz.txt
+   72  cat overz.txt
+   73  cd ./map1
+   74  echo "Eerste lijn" > demo.txt
+   75  echo "Tweede lijn" >> demo.txt
+   76  cat demo.txt
+   77  ~/tmpDW1
+   78  cd ~/tmpDW1
+   79  cp overz.txt overz2.txt
+   80  cp ov* map2
+   81  ls map2
+   82  cp map1/demo.txt .
+   83  mv overz.txt overz1.txt
+   84  mv demo.txt map2
+   85  ls -R
+   86  ls -l *.txt
+   87  find -name 'overz*.txt
+   88  '
+   89  find -name 'overz*.txt'
+   90  cd ~
+   91  rm -rf testje
+   92  cd /tmpDW1
+   93  cd ./tmpDW1
+   94  rm -rf testje
+   95  mkdir testje
+   96  cd testje
+   97  echo "Hello World" > abc.txt
+   98  cat abc.txt
+   99  cp abc.txt xyz.txt
+  100  echo "104146rl" >> xyz.txt
+  101  cat xyz.txt
+  102  ls -l
+  103  cd ..
+  104  ls -l
+  105  ./script.sh
+  106  cd
+  107  tar -czf tmpDW1.tgz tmpDW1/
+  108  ls -l
+  109  cd ./tmpDW1
+  110  cp tmpDW1.tgz /mnt/c/Users/Leroy/Desktop/
+  111  ls
+  112  cd
+  113  cp tmpDW1.tgz /mnt/c/Users/Leroy/Desktop/
+  114  pwd
+  115  ls
+  116  nano blablabla
+  117  cat blablabla 
+  118  cat /etc/shadow
+  119  sudo cat /etc/shadow
+  120  apt --help
+  121  apt tree
+  122  apt install tree
+  123  sudo apt update
+  124  sudo apt install tree
+  125  sudo apt install mysql-server
+  126  apt list
+  127  tree
+  128  clear
+  129  nano demo.sh
+  130  chmod +x demo.sh
+  131  ls -l demo.sh
+  132  demo.sh
+  133  mkdir tmpDW1
+  134  cd tmpDW1
+  135  nano script.sh
+  136  help
+  137  help --help
+  138  help -d
+  139  cls
+  140  clear
+  141  help
+  142  ~
+  143  man
+  144  help
+  145  dirs /?
+  146  dirs --help
+  147  dirclear
+  148  dirs
+  149  --man
+  150  man
+  151  cd /usr
+  152  help
+  153  pwd
+  154  dirs
+  155  find --help
+  156  find .cfg
+  157  find *.cfg
+  158  cd /usr
+  159  ping -c2 localhost
+  160  echo off | ping localhost > ping.log
+  161  cd ~
+  162  dirs
+  163  pwd
+  164  echo off | ping localhost > ping.log
+  165  ping localhost >> ping.log
+  166  ping localhost
+  167  cat ping.log
+  168  dirs ping.log
+  169  --help
+  170  help
+  171  winget cowsay
+  172  sudo apt instal cowsay
+  173  apt --help
+  174  apt list cowsay
+  175  apt install cowsay
+  176  sudo apt instal cowsay
+  177  ip a
+  178  dig patrickskeuken.com 
+  179  help digg
+  180  help dig
+  181  help 
+  182  dig example.com
+  183  install bind9-dnsutils
+  184  git --version
+  185  git config --list
+  186  cd
+  187  cd winhomedir
+  188  git confog
+  189  ??nam
+  190  cd
+  191  pwd
+  192  sudoapt uptdate
+  193  sudo apt uptdate
+  194  sudo apt update
+  195  pwd
+  196  sudo ls
+  197  sudo echo
+  198  chpasswd
+  199  chpasswd: rintjo
+  200  cd
+  201  sudo apt install docker.io docker-buildx docker-doc
+  202  sudo usermod -aG docker rintjo
+  203  exit
+  204  cd
+  205  docker pull mysql:8.4
+  206  docker image ls
+  207  docker image rm
+  208  docker image pull ubuntu
+  209  docker image pull alpine
+  210  docker image ls
+  211  cd /var/lib/docker
+  212  sudo cd /var/lib/docker
+  213  sudo -i
+  214  docker container run ubuntu
+  215  docker container ls
+  216  docker container image ls
+  217  docker container ls -a
+  218  docker container run -d -t ubuntu
+  219  docker container ls -a
+  220  docker image ls
+  221  docker container ls -a
+  222  docker container rm fervent_greider 
+  223  docker container ls -a
+  224  docker container stop suspicious_volhard
+  225  docker container ls -a
+  226* docker container e
+  227  docker container ls -a
+  228* docker container exec suspicious_volhard b
+  229  docker container exec -i -t suspicious_volhard bash
+  230  docker container ls -a
+  231  docker container run -d -t mysql:8.4
+  232  docker container ls -a
+  233  clear
+  234  pdw
+  235  pwd
+  236  clear
+  237  pwd
+  238  mkdir demo-dinsdag
+  239  cs demo-dinsdag
+  240  cd demo-dinsdag
+  241  nano Dockerfile 
+  242  cat Dockerfile
+  243  docker image build .
+  244  docker image ls -a
+  245  docker image build -t myimg:v1 .
+  246  docker image ls -a
+  247  docker image rm  e455c706265e
+  248  docker image ls -a
+  249  ls
+  250  docker container run -d -t myimg:v1
+  251  docker container ls -a
+  252  ls
+  253  docker container exec funny_perlman 
+  254* docker container ex
+  255  docker container exec -i -t funny_perlman ash
+  256  docker container exec -i -t funny_perlman bash
+  257  cat history
+  258  cat log
+  259  history --help
+  260  history
+  261*  Dockerfile
+  262* 
+  263* 
+  264  docker container ls -a
+  265  docker container exec -i -t romantic_colden bash
+  266  nano Dockerfile
+  267  docker image build -t myimg:v2 .
+  268* 
+  269  docker container run -d -t myimg:v2
+  270  docker container exec -i -t myimg:v2 bash
+  271  docker container exec -i -t 848406715494 bash
+  272  docker image prune 
+  273  docker container prune 
+  274  docker container ls -a
+  275  docker container rm -f 81e169ed77a3 b5f240fa7c28 bd756bd3549a 70a3fe86bdf4 
+  276  docker container ls -a
+  277*  Dockerfile
+  278  cat Dockerfile
+  279  mkdir html 
+  280  cd html/
+  281  vi index.html
+  282  cat index.html
+  283  nano index.html
+  284  cat index.html
+  285  cd..
+  286  cd ../
+  287  docker image build -t myimg:v1 .
+  288  nano Dockerfile
+  289  docker image build -t myimg:v1 .
+  290  ls
+  291  docker container ls -a
+  292  docker image ls -a
+  293* docker container run -d -t myimg:v1
+  294  docker container ls -a
+  295  docker container exec -i -t myimg:v1 bash
+  296* docker container 
+  297  docker container prune 
+  298  docker container rm -f
+  299  docker container rm -f dazzling_chaum
+  300  docker container ls -a
+  301  docker image ls -a
+  302  docker image rm -f myimage:v2
+  303  docker image ls -a
+  304  docker image rm -f 848406715494
+  305  docker image ls -a
+  306  history
+  307  history echo > cmdHistoyDinsdag05mei.txt
+  308  history > cmdHistoyDinsdag05mei.txt

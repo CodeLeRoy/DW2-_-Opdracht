@@ -1,0 +1,25 @@
+ssh -p 1234 rintjo@127.0.0.1
+cd .ssh
+ssh-keygen
+dir
+type .\id_ed25519
+type .\id_ed25519.pub
+ssh -p 1234 rintjo@127.0.0.1
+cd ..\
+cd C:\Users\Leroy\OneDrive - Hogeschool Gent\Documenten\GitHub
+git clone git@github.com:CodeLeRoy/desktop-tutorial.git
+cd C:\Users\Leroy\
+dir
+cd DW2-_-Opdracht
+echo teskttest > teskttest
+dir
+scp .\teskttest kopietje
+dit
+dir
+scp .\teskttest rintjo@localhost:kopietje
+scp -P 1234 .\teskttest rintjo@localhost:kopietje
+notepad ..\ssh\know_host
+scp -P 1234 -r -O .\teskttest rintjo@localhost:kopietjePoging2
+doskey /history > G:\Mijn Drive\geschiedenis_cmd.txt
+doskey /history
+doskey /history > geschiedenis_cmd.txt
